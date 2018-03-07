@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2018, 9:13:38 AM
+    Author     : quan-qv-ttv
+*/
+::placeholder{
+    color: #d6d8db;
+    font-size: 14px;
+}
+body{
+    background-color:  firebrick;
+}
+.container{
+    color: white;
+}
+#back{
+    vertical-align: middle;
+    float:left;
+}
+#title{
+    margin:0;
+}
+#navigator{
+    height: auto;
+    display: inline-block;
+    width:100%;
+    height:4%;
+    vertical-align: middle;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#form{
+    text-align:center;
+    float: none;
+}
+.form-items{
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+    border: 2px white solid;
+    border-radius: 200px;
+}
+.form-items-ex{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    border:0;    
+    border-radius: 200px;
+}
+#email{
+    background: url("../images/login/white_email-edited.svg") no-repeat left; 
+    background-position-x: 6%;
+}
+#password{
+    background: url("../images/login/password_white-edited.svg") no-repeat left; 
+    background-position-x: 8%;
+}
+button{
+    color:white;
+}
+#login{
+    background-color: #f0a42c;
+    font-size: 12px;
+}
+#fb-login{
+    background-color: #043b8d;
+    font-size: 12px;
+}
+hr{
+    color: white;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
+hr {
+    width: 100%;
+    background-color: #d6d8db;
+    margin:0;
+}
+.hr-align{
+    width:37%;
+    vertical-align: middle;
+    display:inline-block;
+}
+#left{
+    float:left;
+}
+#right{
+    float:right;
+}
+.vertical-ex{
+    width:100%;
+    margin-bottom: 3%;
+}
+.vertical-ex .text-item{
+    width:20%;
+    display:inline-block;
+    clear:both;
+    text-align: center;
+    font-size: 10px;
+}
+#underline{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 10px;
+    text-decoration: underline;
+    text-underline-position:under;
+}
