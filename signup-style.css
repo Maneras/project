@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2018, 11:20:23 AM
+    Author     : quan-qv-ttv
+*/
+::placeholder{
+    font-weight: bold;
+}
+body{
+    font-size:12px;
+}
+.navigator{
+    width: 100%;
+    margin-top:10%;
+}
+.navigator a{
+    float:left;
+}
+.navigator p{
+    color:brown;
+    font-weight: bold;
+}
+.form{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 5%;
+    padding-left:13%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border:2px brown solid;
+    border-radius: 200px;
+}
+#nameInput{
+    background: url("../images/login/name_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#emailInput{
+    background: url("../images/login/email_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#mobileInput{
+    background: url("../images/login/red_phone-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#passwordInput{
+    background: url("../images/login/password_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#confirmPasswordInput{
+    background: url("../images/login/password_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+.form button{
+    width:100%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    border:0;
+    border-radius: 200px;
+    color:white;
+}
+#signupButton{
+    background-color: #f0a42c;
+}
+#fbSignupButton{
+    background-color: #043b8d;
+    margin-bottom: 5%;
+}
+.hr{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+hr{
+    width:100%;
+    margin:0;
+    border-top-width: 2px;
+    border-top-color: graytext;
+}
+.hr-ex{
+    width:30%;
+    display:inline-block;
+    vertical-align: middle;
+}
+#left{
+    float:left;
+}
+#right{
+    float:right;
+}
+#hr-text{
+    width:20%;
+    display: inline-block;
+}
+#policyText{
+    font-size: 10px !important;
+    color: brown;
+    text-decoration: underline;
+    text-underline-position: under;
+}
