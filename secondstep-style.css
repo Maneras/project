@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2018, 9:11:36 AM
+    Author     : quan-qv-ttv
+*/
+p{
+    margin-top: 24px;
+    color: brown;
+    font-weight: bold;
+}
+img{
+    margin-bottom: 24px;
+}
+input{
+    width:100%;
+    border: 2px brown solid;
+    border-radius:  200px;
+    background: url("assets/images/login/red_phone-edited.svg") no-repeat white left;
+    background-position-x: 5%;
+    padding-left: 13%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+button{
+    margin-top:5%;
+    width: 100%;
+    border: 2px white solid;
+    border-radius: 200px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: goldenrod;
+    color: white;
+}
+
