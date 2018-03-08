@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign up by Facebook</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assets/css/signupbyfb-style.css"/>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" align="center">
+            <div class="navigator">
+                <a><img src="assets/images/common/back_red-edited.svg"></a>
+                <p>新規登録</p>        
+            </div>
+            <div class="form">
+                <input type="text" id="nameInput" value="加藤花子" placeholder="">
+                <input type="email" id="emailInput" value="hanako@tippin.com" placeholder="">
+                <input type="text" id="mobileInput" placeholder="Mobile">
+                <input type="password" id="passwordInput" placeholder="Password">
+                <input type="password" id="confirmPasswordInput" placeholder="Confirm Password">
+                <button id="signupButton">登録する</button>
+                <div class="or">
+                    <div class="hr-ex">
+                        <hr id="left">
+                    </div>
+                    <div id="hr-text">または</div>   
+                    <div class="hr-ex">
+                        <hr id="left">
+                    </div>
+                </div>
+                <button id="emailSignupButton">メールアドレスで登録</button>
+                <p id="policyText">利用規約とプライバシーポリシー</p>
+            </div>
+        </div>
+    </body>
+</html>
