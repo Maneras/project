@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2018, 2:44:10 PM
+    Author     : quan-qv-ttv
+*/
+body{
+    font-size:12px;
+}
+.navigator{
+    width: 100%;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+.navigator a{
+    float:left;
+}
+.navigator p{
+    color:brown;
+    font-weight: bold;
+}
+.form{
+    width:100%;
+}
+.form input{
+    width:100%;
+    margin-bottom: 5%;
+    padding-left:15%;
+    padding-bottom: 5%;
+    padding-top:5%;
+    color:brown;
+    font-weight: bolder;
+    border:2px brown solid;
+    border-radius: 200px;
+}
+#nameInput{
+    background: url("../images/login/name_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#emailInput{
+    background: url("../images/login/email_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#mobileInput{
+    background: url("../images/login/red_phone-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#passwordInput{
+    background: url("../images/login/password_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+#confirmPasswordInput{
+    background: url("../images/login/password_red-edited.svg") no-repeat left;
+    background-position-x: 5%;
+}
+.form button{
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color:white;
+    border:0;
+    border-radius: 200px;
+}
+#signupButton{
+    background-color: #f0a42c;
+}
+#emailSignupButton{
+    background-color: #a62224;
+}
+.or{
+    width:100%;
+    margin-bottom: 5%;
+}
+.hr-ex{
+    display: inline-block;
+    width:30%;
+    vertical-align: middle;
+}
+hr{
+    width:100%;
+    margin:0;
+    border-top-color: graytext;
+    border-top-width: 2px;
+}
+#left{
+    float:left;
+}
+#right{
+    float:right;
+}
+#hr-text{
+    display: inline-block;
+    width:20%;
+}
+#policyText{
+    color:brown;
+    margin-top: 5%;
+    font-size: 10px !important;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
