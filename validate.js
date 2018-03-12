@@ -35,10 +35,12 @@ function passwordQuantityValidation(validateCollection){
     var count = 0;
     for (var id in validateCollection) {
         if (validateCollection[id].length < 6 && /password+/.test(id)) {
-            document.getElementById(id).style.background = document.getElementById(id).style.background = "url('assets/images/login/" +id+"_white-edited.svg') no-repeat left,url('assets/images/login/wrong-edited.svg') no-repeat right";
+            document.getElementById(id).style.background =  "url('assets/images/login/" +id+"_white-edited.svg') no-repeat left,url('assets/images/login/wrong-edited.svg') no-repeat right";
             document.getElementById(id).style.backgroundPositionX = "7%, 95%";      
             count++;
-            console.log("ok");
+        }else{
+            document.getElementById(id).style.background =  "url('assets/images/login/" +id+"_white-edited.svg') no-repeat left,url('assets/images/login/correct-edited.svg') no-repeat right";
+            document.getElementById(id).style.backgroundPositionX = "7%, 95%"; 
         }
     }
     if (count) {
@@ -46,27 +48,42 @@ function passwordQuantityValidation(validateCollection){
     }
     return true;
 }
-function emailFormatValidation(){
-    var email= "";
+
+function emailFormatValidation(email=""){
     email = document.getElementById('email').value;
     if(/\w+\@(tippin\.com)/.test(email)){
-        document.getElementById('email').style.background = document.getElementById(id).style.background = "url('assets/images/login/email_white-edited.svg') no-repeat left,url('assets/images/login/correct-edited.svg') no-repeat right";
+        document.getElementById('email').style.background =  "url('assets/images/login/email_white-edited.svg') no-repeat left,url('assets/images/login/correct-edited.svg') no-repeat right";
         document.getElementById('email').style.backgroundPositionX = "6%, 95%";
         return true;
     }
     else{
-        document.getElementById('email').style.background = document.getElementById(id).style.background = "url('assets/images/login/email_white-edited.svg') no-repeat left,url('assets/images/login/wrong-edited.svg') no-repeat right";
+        document.getElementById('email').style.background = "url('assets/images/login/email_white-edited.svg') no-repeat left,url('assets/images/login/wrong-edited.svg') no-repeat right";
         document.getElementById('email').style.backgroundPositionX = "6%, 95%";
         return false;
     }
 }
+
+function eventValidation(){
+    var input = document.getElementsByTagName('input');
+    for (var i = 0; i < input.length; i++) {
+        input[i].addEventListener("keydown", function (event) {
+            if (event.key === "Tab") {
+                //console.log('ok');
+                emailFormatValidation();
+            }
+        } , false);
+    }
+}
+
 function validation() {
     var validateCollection = createValidateCollection();
-    emailFormatValidation();
     return Boolean(passwordQuantityValidation(validateCollection)
               & emptyValidation(validateCollection)
-              );
+              & emailFormatValidation());
 }
+window.addEventListener("load" , eventValidation() , false);
+
+
 
 
 
