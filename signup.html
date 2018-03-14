@@ -20,12 +20,14 @@ and open the template in the editor.
                 <p>新規登録</p>
             </div>
             <div class="form">
-                <input id="nameInput" type="text" placeholder="Full Name">
-                <input id="emailInput" type="email" placeholder="Email">
-                <input id="mobileInput" type="text" placeholder="Mobile">
-                <input id="passwordInput" type="password" placeholder="Password">
-                <input id="confirmPasswordInput" type="password" placeholder="Confirm Password">
-                <button id="signupButton">登録する</button>
+                <form id="form" target="_blank" action="/Layout Design Project/signup.html" method="post" onsubmit="return validation();">
+                    <input id="name" type="text" placeholder="Full Name">
+                    <input id="email" type="email" placeholder="Email">
+                    <input id="phone" type="text" placeholder="Mobile">
+                    <input id="password" type="password" placeholder="Password">
+                    <input id="confirmPassword" type="password" placeholder="Confirm Password">
+                    <button id="signupButton">登録する</button>
+                </form>
                 <div class="hr">
                     <div class="hr-ex">
                         <hr id="left">
@@ -39,5 +41,6 @@ and open the template in the editor.
                 <p id="policyText">利用規約とプライバシーポリシー</p>
             </div>
         </div>
+        <script src="assets/js/validate.js"></script>
     </body>
 </html>
