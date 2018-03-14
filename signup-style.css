@@ -36,25 +36,25 @@ body{
     border:2px brown solid;
     border-radius: 200px;
 }
-#nameInput{
+#name{
     background: url("../images/login/name_red-edited.svg") no-repeat left;
-    background-position-x: 5%;
+    background-position-x: 6%;
 }
-#emailInput{
+#email{
     background: url("../images/login/email_red-edited.svg") no-repeat left;
-    background-position-x: 5%;
+    background-position-x: 6%;
 }
-#mobileInput{
-    background: url("../images/login/red_phone-edited.svg") no-repeat left;
-    background-position-x: 5%;
+#phone{
+    background: url("../images/login/phone_red-edited.svg") no-repeat left;
+    background-position-x: 6%;
 }
-#passwordInput{
+#password{
     background: url("../images/login/password_red-edited.svg") no-repeat left;
-    background-position-x: 5%;
+    background-position-x: 7%;
 }
-#confirmPasswordInput{
+#confirmPassword{
     background: url("../images/login/password_red-edited.svg") no-repeat left;
-    background-position-x: 5%;
+    background-position-x: 7%;
 }
 .form button{
     width:100%;
